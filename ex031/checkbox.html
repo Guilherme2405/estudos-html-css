@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkbox</title>
+</head>
+<body>
+    <h1>exemplo de formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <input type="radio" name="sexo" id="isxmas"><label for="isxmax">maculino</label> <br>
+            <input type="radio" name="sexo" id="isxfem" checked><label for="isxmax">feminino</label>
+        </fieldset>
+        <!--
+         TODO BOTAO DE "RADIO" QUE FAZ PARTE DO MESMO GRUPO TEM QUE TER O MESMO "NAME"
+        -->
+        <fieldset>
+            <legend>espertes</legend>
+            <input type="checkbox" name="esfut" id="iesfut" checked><label for="iesfut">futebol</label> <br>
+            <input type="checkbox" name="esbas" id="iesbas"><label for="iesbas">basquete</label> <br>
+            <input type="checkbox" name="esvolei" id="iesvolei"> <label for="iesvolei">volei</label> <br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+        
+    </form>
+</body>
+</html>

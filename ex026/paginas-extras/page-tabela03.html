@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        table{
+            width: 300px;
+        }
+
+        tr{
+            background-color: lightgray;
+        }
+        td{
+            border: solid 1px black;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>mesclagem de células</h1>
+    <table>
+        <tr>
+            <td rowspan="3">a</td>
+            <td colspan="3">b</td>
+            <!--MESCLAGEM DE CÉLULAS - DENTRO DA TAG TD - ELEMENTO:
+            COLDSPAN=""
+            ESSA MESCLAGEM SERVE PARA QUE UMA CELULA OCUPE DUAS OU MAIS COLUNAS HORIZONTAIS-->
+
+        </tr>
+        <tr>
+            <td rowspan="2">g</td>
+            <td>e</td>
+            <td rowspan="2">f</td>
+            <!--MESCLAGEM DE CÉLULAS - DENTRO DA TAG TD - ELEMENTO:
+            ROWSPAN=""
+            ESSA MESCLAGEM SERVE PARA QUE UMA CELULA OCUPE DUAS OU MAIS COLUNAS VERTICAIS-->
+        </tr>
+        <tr>
+            <td>h</td>
+        </tr>
+    </table>
+</body>
+</html>

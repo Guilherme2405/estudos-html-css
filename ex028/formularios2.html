@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios2</title>
+</head>
+<body>
+    <h1>teste de formulario</h1>
+    <form action="cadastro.php" method="POST" autocomplete="on">
+    <p><label for="iusu">Usuario:</label>
+       <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="10" placeholder="nome do usuario" autocomplete="username">
+    </p>
+        <!--
+        MAX E MIN + LENGTH = MINIMO OU MAXIMO DE CARACTERES PARA UMA CAIXA DE 
+        TEXTO OU OUTRAS FUNÇÕES
+
+        LABEL = DA VALOR AO UM INPUT
+
+        INPUT = CRIA UMA AREA DE TEXTO 
+         
+        SIZE = MOSTRA QUANTAS LETRAS ELE IRA MOSTRAR 
+
+        PLACEHOLDER = DEIXA UMA DICA NA CAIXA DE TEXTO
+
+        AUTOCOMPLETE = APARECE SUGESTOES DE USUARIO USADOS
+        -->
+
+    <p>
+        <label for="isen">Senha:</label>
+        <input type="password" name="sen" id="isen" required min="8" size="8" placeholder="insira uma senha" autocomplete="new-password">
+    </p>
+    <input type="submit" value="enviar">
+    <input type="reset" value="limpar">
+    </form>
+</body>
+</html>

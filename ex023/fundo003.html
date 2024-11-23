@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo fixo de tela</title>
+    <style>
+        body{
+            height: 100vh;
+            background-color: black;
+            background-image: url(img/wallpaper002.jpg);
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /*
+            background-size: cover; = deixa a imagem com uma res com uma qualidade melhor.
+            tambem e possivel usar outros elementos como
+            cover, auto, contain.
+            */
+            background-attachment: scroll;
+            background-attachment: fixed;
+            /*
+            background-attachment: scroll;
+            background-attachment: fixed;
+            essas tags sao responsaveis para fixar a imagem de fundo para 
+            deixar a imagem fixada
+            */
+
+            /*
+            shorthand - background
+            color > image > position > repeat > [size] > attachment
+            */
+            background: black url(img/wallpaper002.jpg) center center no-repeat cover fixed;
+        }
+        main {
+            background-color: wheat;
+            max-width: 400px;
+            border-radius: 10px;
+            border: solid black;
+            padding: 10px;
+            text-align: center;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum dolorem provident quos, perferendis, soluta cum exercitationem eum cupiditate totam officia quisquam modi et vitae dolorum pariatur nam dolores. Excepturi.lorem
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident maxime alias tempore mollitia consectetur earum corrupti fuga. Blanditiis corrupti nulla necessitatibus. Neque itaque error voluptas possimus temporibus? Rerum, sapiente eveniet?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, provident rerum, voluptate reprehenderit sint nam obcaecati cupiditate consequatur iusto fuga numquam quibusdam quasi delectus commodi ratione? Ipsum aperiam amet quos!
+        </p>
+    </main>
+    
+</body>
+</html>

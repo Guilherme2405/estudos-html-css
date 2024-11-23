@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario3</title>
+</head>
+<body>
+    <h1>teste de formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <!--
+        MAX E MIN + LENGTH = MINIMO OU MAXIMO DE CARACTERES PARA UMA CAIXA DE 
+        TEXTO OU OUTRAS FUNÇÕES
+
+        LABEL = DA VALOR AO UM INPUT
+
+        INPUT = CRIA UMA AREA DE TEXTO 
+         
+        SIZE = MOSTRA QUANTAS LETRAS ELE IRA MOSTRAR 
+
+        PLACEHOLDER = DEIXA UMA DICA NA CAIXA DE TEXTO
+
+        AUTOCOMPLETE = APARECE SUGESTOES DE USUARIO USADOS
+        -->
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome"
+            required maxlength="30" placeholder="nome completo" autocomplete="name">
+        </p>
+        <p>
+
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de Iframe 03</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+
+        iframe{
+            width: 95vw;
+            border: 2px solid black;
+            height: 400px;
+        }
+    </style>
+<body>
+    <h1>Uso de iframes</h1>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus nisi illum magni quae sed, debitis accusamus. Iusto magnam earum voluptates porro, vitae ex voluptate praesentium fuga fugiat nostrum aspernatur vel.</p>
+    <ul>
+        <li><a href="page-tabela01.html" target="frame">page 01</a></li>
+        <li><a href="page-tabela02.html" target="frame">page 02</a></li>
+        <li><a href="page-tabela03.html" target="frame">page 03</a></li>
+        
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid at facilis doloribus harum minima officiis amet sapiente voluptas vero alias. Ad sapiente necessitatibus excepturi voluptatum magnam delectus inventore sed quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ducimus at dolores? Saepe nostrum cum iste necessitatibus. Magni beatae nostrum asperiores esse doloremque consectetur dolorum sunt, ullam necessitatibus iste id.</p>
+
+    <iframe srcdoc="<h1>Escolha alguma das tabelas acima</h1>" name="frame">
+        <!--SRCDOC = UM ELEMENTO ONDE VOCE PODE COLOCAR CONTEUDO HTML DENTRO DA TAG, ISSO IRA FAZER APARECER CONTEUDO DENTRO DO IFRAME-->
+        <p>infelizmente seu navegador não e compatível com isso.</p>
+    </iframe> 
+    <!--
+    É POSSIVEL COLOCAR UMA PAGINA INTERNA DENTRO DE UM IFRAME
+    UM EXEMPLO DISSO FOI AS TABELAS USADADS DENTRO DESSE IFRAME, QUE AO CLICAR NO LINK O CONTEUDO DA PAGINA IRA APARECER DENTRO DO IFRAME
+    -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, neque. Nostrum earum incidunt illo pariatur inventore, cupiditate officiis similique molestias tempora, excepturi ut numquam? Aperiam totam unde dolorem voluptatibus magni?</p>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Criando formulario</h1>
+    <form action="cadastro.php" autocomplete="off">
+        <p><label for="inome">nome:</label> <input type="text" name="name" id="inome"></p>
+        <!--
+        LABEL = E USADA PARA IDENTIFICAR A CAIXA DE TEXTO QUE O USUARIO IRIA USAR PARA CADASTRAR; EFETUAR O LOGIN OU PARA INSERIR OUTRO TIPO DE DADOS
+        -->
+
+        <p><label for="isobrenome">sobrenome</label>: <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="enviar"></p>
+
+    </form>
+
+</body>
+</html>
