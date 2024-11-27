@@ -1,0 +1,122 @@
+/*
+
+div.conteiner {
+    background-color: lightsalmon;
+    display: flex;
+ } == na caixa pai o display tem a tag principal -- display: flex; --
+
+ --------------------------------------------------------------------------------------------------------------------------------------
+
+ div.item {
+    background-color: lightcoral;
+    border: 1px solid black;
+    flex: auto;
+ } == a caixa filho tem o papel de se adaptar ao site de forma responsiva dependendo das tags de container
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+ div.conteiner {
+    background-color: lightsalmon;
+    display: flex;
+ }
+ div.item {
+    background-color: lightcoral;
+    border: 1px solid black;
+    flex: auto;
+ }
+
+ (essas tags tem o pricipio de deixar o site responsivo de forma simples e fluida)    
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+flex-direction:row; == em formato de linha
+flex-direction:collum; == em formato de collum
+
+main-axis:; == eixo principal
+(main-start) e (main-end) == eixo inicial e eixo final
+
+cross-axis:; == eixo transversal
+(cross-start) e (cross-end) == inicio transversal e fim transversal
+
+-- 
+
+-- flex-direction: row; --
+esssas movimentações só sao validas quando a digita com a tag -- flex-direction: row; -- gente le em nosso idioma que le da esquerda pra direita.
+
+-- flex-direction: row-reverse; --
+para fazer que o conteudo apareceça da direita pra esquerda basta usar a tag -- flex-direction: row-reverse; --
+
+-- flex-direction: row-reverse; -- 
+cross-axis nao sofre com a inversao de conteudo da tag -- flex-direction: row-reverse; --
+
+--
+
+-- flex-direction:collum; --
+cross-axis dentro da tag -- flex-direction:collum; -- e movido da esquerda pra direita
+main-axis dentro da tag -- flex-direction:collum; -- e movido de cima pra baixo
+
+-- flex-direction:collum-reverse; --
+cross-axis dentro da tag -- flex-direction:collum-reverse; -- e movido da esquerda pra direita
+main-axis dentro da tag -- flex-direction:collum-reverse; -- e movido de baixo pra cima
+
+--
+
+flex-wrap: nowrap; == padrao == faz o filho nao quebrar para a proxima linha ou coluna
+flex-wrap: wrap; (direção row) == faz o filho querar pra proxima linha ou coluna
+flex-wrap: wrap-reverse; == faz o filho quebrar para o lado ao contrario
+
+
+--
+
+--
+
+justify-content == define o main-axis (main-start) e (main-end)
+
+justify-content: flex-start; == o primeiro item vai ficar grudado no primeiro item e o espaço em branco no final do eixo principal
+justify-content: flex-end; == o primeiro item vai ficar grudado no ultimo item e o espaço em branco no começo do eixo principal
+justify-content: flex-center; == os itens vao ficar no centro do conteiner e o espaços vai na lateral dos eixos
+
+justify-content: space-between; == os itens vao ser distribuidos de forma onde os conteudos extremos vao ficar ligados nas laterais 
+e os itens do meio vao ficar separados por um espaco deixando de forma separada
+
+justify-content: space-evenly; == vao espaçar os itens de forma igual
+
+justify-content: space-around; == vao dividir os espaços em formas iguais e vai colocar os itens de forma iguais no centro desses
+espaços reservados
+
+--
+
+--
+
+align-itens
+
+align-itens: stretch; == valor padrao == esticar
+
+align-itens: flex-start; == vai fazer ele grudar no inicio do eixo transversal, deixando um espaço em branco
+align-itens: flex-ent; == vai fazer ele grudar no fim do eixo transversal, deixando um espaço em branco
+align-itens: flex-center; == vai fazer ele grudar no meio do eixo transversal, deixando um espaço em branco no inicio e fim
+
+--
+
+--
+
+aling-content: ; == alinha os itens na linha transvesal quando eles estão empacotados
+
+aling-content: stretch; == pega toda a areas disponivel e divide
+aling-content: flex-start; == vai colocar todos os itens grudados no começo
+aling-content: flex-end; == vai colocar todos os itens grudados no fim
+aling-content: center; == vai colocar os itens centralizados
+
+aling-content: space-beetween; == abre espaços entres os itens (deixa os primeiros grudados no inicio e cria um espaço entre eles)
+aling-content: space-evenly; == cria um espaçamento entre todos os itens
+aling-content: space around; == cria uma area para colocar os itens e centraliza nesse espaço
+--
+
+--
+
+
+
+--
+
+
+*/
